@@ -1,0 +1,12 @@
+# Question- To find given number is pallindrome or not
+i_num= str(int(input("Enter the number")))
+# first convert given value to the integer ie 00010 to 10 and then convert into the string form.
+s_rev=i_num[::-1]
+# reverse the direction of a string.
+# Note we cannot reverse the direction in form of integer.
+
+# Condition used if the nukmber is pallindrome or not.
+if i_num ==s_rev:
+  print(i_num,"is a pallindrome number")
+else:
+  print(i_num,"is not a pallindrome number")
